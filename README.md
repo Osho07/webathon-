@@ -9,4 +9,6 @@ Step 3- Select the course you want to learn
 
 To run on local host 
 Step 1- Open terminal/commandprompt
-Step 2- give command git clone
+Step 2- give command git clone https://github.com/Osho07/webathon-.git
+The folder will be saved in your pc 
+Step 3- OPen the folder and search the index file and open it in a browser. 
