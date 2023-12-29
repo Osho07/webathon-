@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* styles.css */
+
+
+    background-color: #f4f3f7; /* Set your desired color here */
+    color: #0e0e0e; /* Set the text color to be visible on the background */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro-section, .members-section, .portfolio, .bio, .projects {
+    margin-bottom: 30px;
+}
+
+.member, .project {
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #060cab;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+header {
+    background-color: #fc4e04; /* Set your desired color here */
+    color: #eceaf6; /* Set the text color to be visible on the background */
+    text-align: center;
+    padding: 0px; /* Adjust as needed */
+    
+}
+header img {
+    max-width:100px; /* Adjust the maximum width of the logo */
+    height: 100px; /* Maintain the aspect ratio */
+    margin-right: 1500px; 
+    
+}
+footer {
+    background-color: #f86767; /* Set your desired color here */
+    color: #f9f2f2; /* Set the text color to be visible on the background */
+    text-align: center;
+    padding: 20px; /* Adjust as needed */
+}

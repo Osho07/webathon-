@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="course.css">
+    <title>Login Page</title>
+    <style>
+        body {
+            
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        #login-form {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #fe0303;
+            color: white;
+            padding: 10px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+  
+     <section class="intro-section">
+        <header>
+        <h1> <p><img src ="p_logo.png" alt="p_logo" >&nbsp;<I><B>Pixel-Pioneer</B></I></p>
+      <h5><p><marquee> Lets Upgarde to New skills</marquee></p></h5>
+        </header>
+    </section>
+
+    <div id="login-form">
+        <h2>Login</h2>
+        <form action="course.html" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+        
+        <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+        <script src="course.js"></script>
+    </div>
+    <footer>
+        <p>contact:<a href="https://github.com/Osho07">Pixel-pioneer</a></p>
+    </footer>
+</body>
+</html>
